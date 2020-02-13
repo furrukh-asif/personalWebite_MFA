@@ -1,0 +1,165 @@
+body{
+  padding: 0;
+  margin: 0;
+  width:100%;
+  height:100%;
+
+}
+/*--- navigation bar ---*/
+.navbar {
+  background:#000;
+
+}
+.nav-link,
+.navbar-brand {
+  color: #F5741B;
+  cursor: pointer;
+}
+.navbar-brand:hover{
+  color: #fff;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #fff;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+
+.carousel-inner {
+  padding: 0;
+  margin: 0;
+}
+
+.page-header{
+  margin:0;
+  padding:0;
+  height:100vh;
+}
+
+.containerMypicture{
+  height:100vh;
+  background-color: blue;
+}
+
+.containerHome{
+  height:100vh;
+}
+
+.containerGithub{
+  padding:0;
+  margin: 0;
+  border: 0;
+  position:absolute;
+  left:50%;
+  top:40%;
+  border-color: #951BF5;
+}
+
+.containerResume{
+  padding:0;
+  margin: 0;
+  border: 0;
+  position:absolute;
+  left:60%;
+  top:40%;
+  border-color: #951BF5;
+}
+
+.container{
+  padding:0;
+  margin: 0;
+  border: 0;
+  position:absolute;
+  left:40%;
+  top:40%;
+  border-color: #951BF5;
+}
+
+.background{
+  background-color: #7CB8C0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.background1{
+  background-color: #7CB8C0;
+  height: 100vh;
+  width: 100vw;
+}
+.carousel-slide{
+  position:absolute;
+  top:0;
+}
+
+.carousel-caption h5{
+  width: 350px;
+  height: 200px;
+  font-size: 2.5em;
+  font-weight: bold;
+  font-stretch: expanded;
+  animation-duration: 7s;
+  color: #fff;
+}
+
+
+.carousel-caption h1{
+  padding-bottom: 4%;
+  font-size: 3em;
+}
+
+#aboutme .carousel-caption{
+
+  padding-top: 5%;
+
+}
+.carousel-caption p{
+  font-size:1.25em;
+}
+
+
+#aboutme.carousel-caption{
+  top:40%;
+  align-content: center;
+
+}
+
+#resButton{
+  position: absolute;
+  top: 300px:
+  right: 150px;
+}
+
+.SecondSection h4{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  font-size: 4em;
+  color: #F5741B;
+}
+
+
+.col{
+  padding:15px;
+  margin:10px;
+}
+
+
+.thirdsection{
+  padding-top:5%;
+  padding-bottom: 5%;
+  margin-left: 2%;
+}
+
+.thirdsection h4{
+  text-align: center;
+  font-size: 4em;
+  color: #F5741B;
+}
+
+.footer-copyright{
+  color:black;
+}
